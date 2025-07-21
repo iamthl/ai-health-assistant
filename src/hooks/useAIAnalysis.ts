@@ -14,7 +14,7 @@ const useAIAnalysis = (symptomData: SymptomAssessmentData, updateRecommendations
     let chatHistory = [];
     chatHistory.push({ role: "user", parts: [{ text: prompt }] });
     const payload = { contents: chatHistory };
-    const apiKey = "AIzaSyCc6kbJGgr4roxTti0WKCcEihb8nmI7pdM"; // Using Vite's environment variable import
+    const apiKey = import.meta.env.GG_API_KEY;
     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
     try {
