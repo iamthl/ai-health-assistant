@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font family */
+body {
+  font-family: 'Roboto', 'sans-serif';
+}
+
+/* Reusable Component Classes */
+
+@layer components {
+  .card-section {
+    @apply bg-bg-card border border-border-light rounded-xl shadow-sm p-6;
+  }
+
+  .card-title {
+    @apply flex items-center text-xl font-semibold text-blue-action-text mb-4;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-text-medium mb-1;
+  }
+
+  .form-input, .form-textarea, .form-select {
+    @apply w-full p-3 border border-border-medium rounded-lg focus:ring-primary-indigo focus:border-primary-indigo text-text-dark;
+  }
+
+  .form-textarea {
+    @apply placeholder-text-placeholder;
+  }
+  .form-select {
+    @apply appearance-none bg-bg-card pr-10;
+  }
+
+  .select-arrow {
+    @apply pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-text-medium;
+  }
+
+  .primary-action-button {
+    @apply w-full py-3 px-4 bg-blue-action-bg border border-blue-action-border text-blue-action-text font-medium rounded-lg flex items-center justify-center space-x-2 hover:bg-blue-action-bg/80 transition-colors disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .secondary-button {
+    @apply text-blue-action-text font-medium hover:text-blue-action-text/80 transition-colors text-sm;
+  }
+
+  .info-banner {
+    @apply bg-gradient-to-r from-gradient-start to-gradient-end rounded-xl p-6 shadow-lg;
+  }
+
+  .recommendation-card {
+    @apply bg-blue-recommendation-bg border border-blue-recommendation-border rounded-lg p-4;
+  }
+
+  .warning-card {
+    @apply bg-orange-warning-bg border border-orange-warning-border rounded-lg p-4;
+  }
+
+  .health-log-item {
+    @apply border border-border-light rounded-lg p-4;
+  }
+
+  .health-metric-score-card {
+    @apply bg-teal-score-bg rounded-lg p-4 flex justify-between items-center;
+  }
+
+  .progress-bar-container {
+    @apply w-full bg-gray-200 rounded-full h-2;
+  }
+
+  .progress-bar-fill-indigo {
+    @apply bg-primary-indigo h-2 rounded-full;
+  }
+
+  .progress-bar-fill-orange {
+    @apply bg-orange-warning-text h-2 rounded-full;
+  }
+
+  .tip-card-blue {
+    @apply bg-blue-recommendation-bg rounded-lg p-4;
+  }
+
+  .tip-card-cyan {
+    @apply bg-primary-cyan/10 rounded-lg p-4;
+  }
+
+  .tip-card-purple {
+    @apply bg-purple-tip-bg rounded-lg p-4;
+  }
+
+  .quick-action-button {
+    @apply flex flex-col items-center justify-center p-4 bg-blue-action-bg border border-blue-action-border rounded-lg text-blue-action-text font-medium hover:bg-blue-action-bg/80 transition-colors;
+  }
+
+  .log-card-base {
+    @apply bg-bg-card border border-border-light rounded-lg p-6 flex flex-col justify-between;
+  }
+
+  .log-icon-container {
+    @apply w-10 h-10 rounded-full flex items-center justify-center;
+  }
+
+  .log-status-tag {
+    @apply px-3 py-1 text-xs rounded-full font-medium;
+  }
+
+  .filter-select {
+    @apply w-full p-2 border border-border-medium rounded-md appearance-none bg-bg-card pr-8 text-text-dark text-sm;
+  }
+
+  .filter-search-input {
+    @apply w-full p-2 pl-3 pr-10 border border-border-medium rounded-md focus:ring-primary-indigo focus:border-primary-indigo text-text-dark text-sm;
+  }
+
+  .filter-search-button {
+    @apply absolute right-0 top-0 h-full w-10 flex items-center justify-center bg-gray-100 rounded-r-md border border-l-0 border-border-medium hover:bg-gray-200 transition-colors;
+  }
+}
