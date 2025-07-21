@@ -1,0 +1,147 @@
+{
+    "userInfo": {
+      "name": "Sarah"
+    },
+    "symptomAssessment": {
+      "symptoms": "",
+      "painLevel": "",
+      "duration": ""
+    },
+    "healthRecommendations": {
+      "immediate": [
+        "Stay hydrated - drink 8-10 glasses of water",
+        "Get adequate rest - aim for 7-8 hours of sleep",
+        "Consider over-the-counter pain relief if needed"
+      ],
+      "seekCareWarning": "Consult a healthcare provider if symptoms persist for more than 48 hours or worsen significantly."
+    },
+    "healthLogs": [
+      {
+        "id": 1,
+        "type": "Blood Pressure",
+        "category": "Vitals",
+        "timeAgo": "2 hours ago",
+        "details": { "systolic": "120 mmHg", "diastolic": "80 mmHg" },
+        "status": "Normal",
+        "statusColor": "text-emerald-700",
+        "bgColor": "bg-red-50",
+        "iconBg": "bg-red-200",
+        "iconColor": "text-red-600",
+        "iconPath": "M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z"
+      },
+      {
+        "id": 2,
+        "type": "Weight",
+        "category": "Vitals",
+        "timeAgo": "5 hours ago",
+        "details": { "current": "68.5 kg", "change": "-0.3 kg" },
+        "status": "Healthy Range",
+        "statusColor": "text-blue-800",
+        "bgColor": "bg-blue-50",
+        "iconBg": "bg-blue-200",
+        "iconColor": "text-blue-700",
+        "iconPath": "M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z"
+      },
+      {
+        "id": 3,
+        "type": "Medication",
+        "category": "Treatment",
+        "timeAgo": "8 hours ago",
+        "details": { "medication": "Metformin", "dosage": "500mg" },
+        "status": "Taken",
+        "statusColor": "text-emerald-700",
+        "bgColor": "bg-yellow-50",
+        "iconBg": "bg-yellow-200",
+        "iconColor": "text-yellow-700",
+        "iconPath": "M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z"
+      },
+      {
+        "id": 4,
+        "type": "Temperature",
+        "category": "Vitals",
+        "timeAgo": "1 day ago",
+        "details": { "reading": "36.8°C", "method": "Oral" },
+        "status": "Normal",
+        "statusColor": "text-emerald-700",
+        "bgColor": "bg-purple-50",
+        "iconBg": "bg-purple-200",
+        "iconColor": "text-purple-700",
+        "iconPath": "M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z"
+      },
+      {
+        "id": 5,
+        "type": "Exercise",
+        "category": "Activity",
+        "timeAgo": "1 day ago",
+        "details": { "activity": "Walking", "duration": "45 min" },
+        "status": "Completed",
+        "statusColor": "text-emerald-700",
+        "bgColor": "bg-emerald-50",
+        "iconBg": "bg-emerald-200",
+        "iconColor": "text-emerald-700",
+        "iconPath": "M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z"
+      },
+      {
+        "id": 6,
+        "type": "Symptoms",
+        "category": "Health Alert",
+        "timeAgo": "2 days ago",
+        "details": { "symptom": "Headache", "severity": "Mild" },
+        "status": "Monitoring",
+        "statusColor": "text-orange-800",
+        "bgColor": "bg-orange-50",
+        "iconBg": "bg-orange-200",
+        "iconColor": "text-orange-700",
+        "iconPath": "M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z"
+      },
+      {
+        "id": 7,
+        "type": "Blood Pressure",
+        "category": "Vitals",
+        "timeAgo": "3 days ago",
+        "details": { "systolic": "125 mmHg", "diastolic": "82 mmHg" },
+        "status": "Normal",
+        "statusColor": "text-emerald-700",
+        "bgColor": "bg-red-50",
+        "iconBg": "bg-red-200",
+        "iconColor": "text-red-600",
+        "iconPath": "M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z"
+      },
+      {
+        "id": 8,
+        "type": "Weight",
+        "category": "Vitals",
+        "timeAgo": "4 days ago",
+        "details": { "current": "68.8 kg", "change": "+0.1 kg" },
+        "status": "Healthy Range",
+        "statusColor": "text-blue-800",
+        "bgColor": "bg-blue-50",
+        "iconBg": "bg-blue-200",
+        "iconColor": "text-blue-700",
+        "iconPath": "M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.58 20 4 16.42 4 12C4 7.58 7.58 4 12 4C16.42 4 20 7.58 20 12C20 16.42 16.42 20 12 20ZM11 15H13V17H11V15ZM11 7H13V13H11V7Z"
+      }
+    ],
+    "healthOverview": {
+      "score": "8.5/10",
+      "sleepQuality": 85,
+      "hydration": 70,
+      "activityLevel": 60
+    },
+    "dailyHealthTips": [
+      {
+        "id": 1,
+        "title": "Hydration Reminder",
+        "description": "Aim to drink water every 2 hours to maintain optimal hydration levels."
+      },
+      {
+        "id": 2,
+        "title": "Movement Break",
+        "description": "Take a 5-minute walk every hour to improve circulation and energy."
+      },
+      {
+        "id": 3,
+        "title": "Mindfulness",
+        "description": "Practice 5 minutes of deep breathing to reduce stress levels."
+      }
+    ]
+  } 
